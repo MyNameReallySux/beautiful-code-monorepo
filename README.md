@@ -56,6 +56,6 @@ These packages began life in 2017–2018 as separate repos
 [object-utils](https://github.com/MyNameReallySux/object-utils),
 [console-utils](https://github.com/MyNameReallySux/console-utils),
 [path-resolver](https://github.com/MyNameReallySux/path-resolver) — now
-archived). The 1.0 release is a modern TypeScript port that preserves the
-public API, ports the original mocha test suites to vitest, and fixes several
-latent bugs (see each package's CHANGELOG).
+archived). The monorepo releases are a modern TypeScript port that preserves
+the public API, ports the original mocha test suites to vitest, and fixes
+several latent bugs (see each package's CHANGELOG).

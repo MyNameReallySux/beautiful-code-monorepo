@@ -1,6 +1,6 @@
 {
 	"name": "@beautiful-code/path-resolver",
-	"version": "0.1.3",
+	"version": "0.2.0",
 	"description": "Generate path resolver functions and bundler alias maps from a directory structure definition",
 	"author": "Chris Coppola <mynamereallysux@gmail.com>",
 	"license": "MIT",
