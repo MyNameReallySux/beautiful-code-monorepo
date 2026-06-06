@@ -1,0 +1,38 @@
+{
+	"name": "@beautiful-code/monorepo",
+	"private": true,
+	"type": "module",
+	"description": "Monorepo for @beautiful-code utility packages",
+	"author": "Chris Coppola <mynamereallysux@gmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MyNameReallySux/beautiful-code-monorepo.git"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"packageManager": "pnpm@10.34.1",
+	"scripts": {
+		"build": "pnpm -r run build",
+		"typecheck": "pnpm -r run typecheck",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"lint": "eslint .",
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
+		"changeset": "changeset",
+		"version": "changeset version",
+		"release": "pnpm build && changeset publish"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.29.0",
+		"@eslint/js": "^9.30.0",
+		"eslint": "^9.30.0",
+		"prettier": "^3.6.0",
+		"tsup": "^8.5.0",
+		"typescript": "^5.9.0",
+		"typescript-eslint": "^8.40.0",
+		"vitest": "^3.2.0"
+	}
+}

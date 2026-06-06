@@ -1,0 +1,51 @@
+{
+	"name": "@beautiful-code/object-utils",
+	"version": "0.2.1",
+	"description": "Object manipulation utilities: clean, exclude, omit, merge, setDeep, size, swap",
+	"author": "Chris Coppola <mynamereallysux@gmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MyNameReallySux/beautiful-code-monorepo.git",
+		"directory": "packages/object-utils"
+	},
+	"keywords": [
+		"object",
+		"merge",
+		"omit",
+		"deep-set",
+		"utils"
+	],
+	"type": "module",
+	"sideEffects": false,
+	"engines": {
+		"node": ">=20"
+	},
+	"files": [
+		"dist"
+	],
+	"main": "./src/index.ts",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"publishConfig": {
+		"access": "public",
+		"main": "./dist/index.cjs",
+		"module": "./dist/index.js",
+		"types": "./dist/index.d.ts",
+		"exports": {
+			".": {
+				"types": "./dist/index.d.ts",
+				"import": "./dist/index.js",
+				"require": "./dist/index.cjs"
+			}
+		}
+	},
+	"scripts": {
+		"build": "tsup",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@beautiful-code/type-utils": "workspace:^"
+	}
+}
