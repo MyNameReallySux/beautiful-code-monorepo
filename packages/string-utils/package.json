@@ -1,6 +1,6 @@
 {
 	"name": "@beautiful-code/string-utils",
-	"version": "0.2.3",
+	"version": "1.0.0",
 	"description": "String manipulation and case-conversion utilities (camel, kebab, snake, readable) with a chainable stream API",
 	"author": "Chris Coppola <mynamereallysux@gmail.com>",
 	"license": "MIT",

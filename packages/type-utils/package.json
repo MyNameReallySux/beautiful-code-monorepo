@@ -1,6 +1,6 @@
 {
 	"name": "@beautiful-code/type-utils",
-	"version": "0.1.6",
+	"version": "1.0.0",
 	"description": "Runtime type identification and validation utilities with TypeScript type guards",
 	"author": "Chris Coppola <mynamereallysux@gmail.com>",
 	"license": "MIT",
